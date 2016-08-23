@@ -39,12 +39,14 @@ p {
 }
 */
 
-#hacknehs-logo-img {
+/*
+.hacknehs-logo-img {
 
   background-size: contain;
   background-position: center;
     background-repeat: no-repeat;
 }
+*/
 
 #hacknehs-logo-text {
     font-size: 1.5rem;
