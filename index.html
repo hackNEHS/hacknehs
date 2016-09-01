@@ -12,13 +12,14 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="/assets/css/materialize.css" media="screen,projection" />
     <script src="https://use.fonticons.com/1c889437.js"></script>
-    <!--Custom CSS-->
-    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <!--  Scripts-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="/assets/js/materialize.js"></script>
     <script src="/assets/js/init.js"></script>
+    <!--Custom CSS-->
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="assets/css/font-awesome-4.6.3/css/font-awesome.min.css">
+    <!--  Scripts-->
 </head>
 
 <body>
@@ -39,12 +40,13 @@
                     <li class="light"><a href="#sponsors">Sponsors</a></li>
                     <li class="light"><a href="#team">Team</a></li>
                 </ul>
-                <ul id="myNavbarRight" class="right hide-on-med-and-down">
-                    <li><a class="light" href="mailto:info@hacknehs.com"><i class="fa fa-envelope"></i> Email</a></li>
-                    <li class="light"><a target="_blank" href="https://www.facebook.com/hacknehs/"><i class="fa fa-facebook-official"></i> Facebook</a></li>
-                    <li class="light"><a target="_blank" href="https://twitter.com/hackNEHS"><i class="fa fa-twitter"></i> Twitter</a></li>
-                    <li class="light"><a target="_blank" href="https://www.instagram.com/hacknehs/"><i class="fa fa-instagram"></i> Instagram</a></li>
-                    <li class="light"><a target="_blank" href="https://medium.com/hacknehs"><i class="fa fa-comment"></i> Medium</a></li>
+        
+                <ul id="myNavbarRight" class="right">
+                    <li><a class="light" href="mailto:info@hacknehs.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+                    <li class="light"><a target="_blank" href="https://www.facebook.com/hacknehs/"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+                    <li class="light"><a target="_blank" href="https://twitter.com/hackNEHS"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li class="light"><a target="_blank" href="https://www.instagram.com/hacknehs/"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li class="light"><a target="_blank" href="https://medium.com/hacknehs"><i class="fa fa-medium  fa-2x" aria-hidden="true"></i></a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li class="light center">
@@ -61,7 +63,8 @@
                     <li class="light"><a target="_blank" href="https://www.facebook.com/hacknehs/"><i class="fa fa-facebook-official"></i> Facebook</a></li>
                     <li class="light"><a target="_blank" href="https://twitter.com/hackNEHS"><i class="fa fa-twitter"></i> Twitter</a></li>
                     <li class="light"><a target="_blank" href="https://www.instagram.com/hacknehs/"><i class="fa fa-instagram"></i> Instagram</a></li>
-                    <li class="light"><a target="_blank" href="https://medium.com/hacknehs"><i class="fa fa-comment"></i> Medium</a></li>
+                    <li class="light"><a target="_blank" href="https://medium.com/hacknehs"><i class="fa fa-medium" aria-hidden="true"></i> Medium</a></li>
+                        <li class="light"> </li>
                 </ul>
             </div>
         </nav>
@@ -69,7 +72,7 @@
     <div id="main-content">
         <!-- home -->
         <section id="home" class="scrollspy" style="height: 800px">
-            <div class="row center"> <img src="assets/banner-logo.png" style="height: 200px; margin-top: 150px">
+            <div class="row center"> <img id="hacknehs-logo-img" src="assets/banner-logo.png" style="margin-top: 150px">
                 <h5 class="light white-text">October 8, 2016</h5>
                 <h5 class="light white-text">1 Cambridge Center</h5>
                 <h5 class="light white-text">200+ Hackers</h5>
@@ -244,7 +247,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="card blue-grey hoverable">
                             <div class="card-content white-text"> <span class="card-title orange-text">I don't have a team?</span>
-                                <p>Don’t worry. You will have an opportunity to find a team on the day of the hackathon. The first hour is dedicated towards registration, netowrking, and team formation. Or, you can even choose to work solo!</p>
+                                <p>Don’t worry. You will have an opportunity to find a team on the day of the hackathon. The first hour is dedicated towards registration, networking, and team formation. Or, you can even choose to work solo!</p>
                             </div>
                         </div>
                     </div>
@@ -422,7 +425,7 @@
                     <h3 class="col s12 light white-text">Sponsor</h3>
                     <h5 class="col s12 grey-text text-darken-3">Interested in sponsoring? Please contact us at <a href="mailto:sponsors@hacknehs.com">sponsors</a>.</h5>
                     <h5 class="col s12 grey-text text-darken-3"> Check out our sponsorship packet here: <a href="assets/sponsorship.pdf" target="_blank">hackNEHS Sponsorship Packet</a></h5> </div>
-<!--
+                <!--
                 <h4 class="col s12 light white-text center">Our Partners</h4>
                 <div class="row">
              
@@ -430,7 +433,7 @@
 -->
                 <h4 class="col s12 light white-text center">Our Sponsors</h4>
                 <div class="row">
-                           <div class="col l6 m12">
+                    <div class="col l6 m12">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light" style=""> <img class="activator" src="assets/microsoft.png"> </div>
                             <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Microsoft<i class="material-icons right">close</i></span>
@@ -456,14 +459,13 @@
                     </div>
                     <div class="col l6 m12">
                         <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light" style="padding: 30px"> <img class="activator" src="assets/deshaw.jpg"> </div>
+                            <div class="card-image waves-effect waves-block waves-light" style="padding: 40px"> <img class="activator" src="assets/deshaw.jpg"> </div>
                             <div class="card-reveal"> <span class="card-title grey-text text-darken-4">D. E. Shaw &#38; Co.<i class="material-icons right">close</i></span>
                                 <p>Check out their website <a href="https://www.deshaw.com/" target="_blank">here</a>.</p>
                             </div>
                         </div>
                     </div>
-             
-                      <div class="col l6 m12">
+                    <div class="col l6 m12">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light" style=""> <img class="activator" src="assets/chipotle.jpg"> </div>
                             <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Chipotle<i class="material-icons right">close</i></span>
@@ -471,7 +473,7 @@
                             </div>
                         </div>
                     </div>
-                           <div class="col l6 m12">
+                    <div class="col l6 m12">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light" style=""> <img class="activator" src="assets/liberty.jpg"> </div>
                             <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Liberty Mutual<i class="material-icons right">close</i></span>
@@ -479,7 +481,7 @@
                             </div>
                         </div>
                     </div>
-                           <div class="col l6 m12">
+                    <div class="col l6 m12">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light" style="padding: 30px"> <img class="activator" src="assets/SIG-color.png"> </div>
                             <div class="card-reveal"> <span class="card-title grey-text text-darken-4">SIG<i class="material-icons right">close</i></span>
@@ -505,11 +507,19 @@
                             </div>
                         </div>
                     </div>
-                        <div class="col l3 m4 s6">
+                    <div class="col l3 m4 s6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light" style="padding: 15px"> <img class="activator" src="assets/sponsrus.jpg"> </div>
                             <div class="card-reveal"> <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
                                 <p>Check out their website <a href="https://sponsr.us/" target="_blank">here</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light" style="padding: 15px"> <img class="activator" src="assets/sphero.jpg"> </div>
+                            <div class="card-reveal"> <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <p>Check out their website <a href="http://www.sphero.com/" target="_blank">here</a>.</p>
                             </div>
                         </div>
                     </div>
@@ -648,7 +658,7 @@
                         <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/hacknehs/"><i class="fa fa-facebook-official"></i> Facebook</a></li>
                         <li><a target="_blank" class="grey-text text-lighten-3" href="https://twitter.com/hackNEHS"><i class="fa fa-twitter"></i> Twitter</a></li>
                         <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.instagram.com/hacknehs/"><i class="fa fa-instagram"></i> Instagram</a></li>
-                        <li><a target="_blank" class="grey-text text-lighten-3" href="https://medium.com/hacknehs"><i class="fa fa-comment"></i> Medium</a></li>
+                        <li><a target="_blank" class="grey-text text-lighten-3" href="https://medium.com/hacknehs"><i class="fa fa-medium" aria-hidden="true"></i> Medium</a></li>
                     </ul>
                 </div>
             </div>

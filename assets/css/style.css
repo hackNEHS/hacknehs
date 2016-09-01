@@ -27,6 +27,7 @@ p {
     line-height: 2rem;
 }
 
+
 /*
 #loader {
     position: fixed;
@@ -36,15 +37,6 @@ p {
     height: 100%;
     z-index: 9999;
     background: url('../gears.gif') 50% 50% no-repeat rgb(249, 249, 249);
-}
-*/
-
-/*
-.hacknehs-logo-img {
-
-  background-size: contain;
-  background-position: center;
-    background-repeat: no-repeat;
 }
 */
 
@@ -119,14 +111,11 @@ footer.page-footer {
     background: #ff9800;
 }
 
-iframe {
-    
-}
+iframe {}
 
 #home {
     background: url('../boston_night.jpg');
-    background-size:cover;
-    
+    background-size: cover;
 }
 
 .hacknehs-form-container {
@@ -375,20 +364,18 @@ input[type=submit] {
     }
 }
 
-@media (max-width: 1400px) {
+
+@media (max-width: 992px) {
+    #myNavbarLeft {
+        display: none;
+    }
     #myNavbarRight {
         display: none;
     }
 }
 
-@media (max-width: 770px) {
-    #myNavbarLeft {
-        display: none;
-    }
-}
-
-@media (min-width: 770px) {
-    .button-collapse {
-        display: none;
+@media (max-width: 500px) {
+    #hacknehs-logo-img {
+        height: 140px;
     }
 }
