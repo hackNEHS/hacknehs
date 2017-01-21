@@ -48,6 +48,10 @@ hr {
   color: white;
 }
 
+.btn {
+  border-radius: 0;
+}
+
 @media (max-width: 1200px) {
     .title {
         font-size: 5em;
