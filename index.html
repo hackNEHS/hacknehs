@@ -11,11 +11,20 @@
   <title> hackNEHS | Hack New England High Schools </title>
   <link rel='shortcut icon' href='assets/images/favicon.ico' type='image/x-icon' />
 
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-
   <!--Custom CSS-->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="assets/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="assets/css/custom.css" rel="stylesheet" />
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/typed.js"></script>
+  <script>
+  $(function(){
+    $("#typed").typed({
+      stringsElement: $('#typed-strings'),
+      typeSpeed: 100,
+    });
+  });
+  </script>
 
 </head>
 <body>
@@ -23,12 +32,20 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center">
-          <h1 class="title">hack<span class="text-orange">NEHS</span></h1>
-          <h3 class="text-white">Hack New England High Schools 2017 will run in the Fall of 2017. More information will be available during the summer.</h3>
+          <div class="title">
+            <div id="typed-strings">
+              <p>Welcome^200</p>
+              <p><span class="text-orange">to^200</span></p>
+              <p>hack<span class="text-orange">NEHS</span></p>
+            </div>
+            <span id="typed"></span>
+          </div>
 
-            <a href="gallery.html" class="btn btn-warning btn-lg">Gallery</a>
-            <a href="#" class="btn btn-warning btn-lg">Register</a>
-            <a href="sponsorship.pdf" target="_blank" class="btn btn-warning btn-lg">Sponsor</a>
+          <h2 class="text-white">Hack New England High Schools 2017 will run in the Fall of 2017. More information will be available during the summer. Last year's site can be viewed <a href="2016.html" target="_blank">here</a>.</h2>
+
+          <a href="gallery.html" target="_blank" class="btn btn-warning btn-lg">Gallery</a>
+          <a href="#" class="btn btn-warning btn-lg">Register</a>
+          <a href="sponsorship.pdf" target="_blank" class="btn btn-warning btn-lg">Sponsor</a>
 
           <hr>
           <a class="btn btn-info" href="mailto:info@hacknehs.com"><i class="fa fa-envelope fa-1x"></i></a>
@@ -36,9 +53,46 @@
           <a class="btn btn-info" target="_blank" href="https://twitter.com/hackNEHS"><i class="fa fa-twitter fa-1x"></i></a>
           <a class="btn btn-info" target="_blank" href="https://medium.com/hacknehs"><i class="fa fa-medium  fa-1x"></i></a>
           <a class="btn btn-info" target="_blank" href="https://hacknehs.com/blog"><i class="fa fa-rss-square  fa-1x"></i></a>
-
+          <br>
+          <br>
+          <br>
+          <a href="#news"><i class="fa fa-arrow-down fa-3x"></i></a>
+        </div>
       </div>
     </div>
+  </section>
+
+  <section class="news" id="news">
+    <div class="container orange-container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2 class="text-white">hackNEHS In The News</h2>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 3em">
+        <div class="col-md-6 col-xs-12 text-center">
+          <h3>Office of Digital Learning | Massachusetts Department of Elementary and Secondary Education</h3>
+          <hr>
+          <a href="https://blog.mass.gov/odl/uncategorized/hack-new-england-high-schools-pronounced-hack-ness-a-new-hackathon-run-by-high-schoolers-for-high-schoolers/" target="_blank" class="news-link">"Hack New England High Schools (pronounced “hack-ness”) – a new hackathon run by high-schoolers for high-schoolers"</a>
+        </div>
+        <div class="col-md-6 col-xs-12 text-center">
+          <h3>Wicked Local Burlington</h3>
+          <hr>
+          <a href="http://burlington.wickedlocal.com/news/20161006/new-england-high-schoolers-bring-hackathon-to-burlington" target="_blank" class="news-link">"The free, nonprofit day-long hackathon is open to all high school students in New England interested in technology and computer programming"</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-xs-12 text-center">
+          <h3>The Phillipian</h3>
+          <hr>
+          <a href="http://phillipian.net/2016/10/16/online-exclusive-andover-students-lead-first-ever-hacknehs-hackathon/" target="_blank" class="news-link">"This event was specifically tailored for high school students, and it’s a really good experience for students to learn how to design a product"</a>
+        </div>
+        <div class="col-md-6 col-xs-12 text-center">
+          <h3>The Exonian</h3>
+          <hr>
+          <a href="https://www.exeter.edu/news/hack-it" target="_blank" class="news-link">"By all accounts a resounding success in terms of attendance and idea-generation, the first hackNEHS event hit the mark in another key area — diversity"</a>
+        </div>
+      </div>
     </div>
   </section>
 </body>
