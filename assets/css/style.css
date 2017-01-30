@@ -27,6 +27,9 @@ p {
     line-height: 2rem;
 }
 
+.news-link {
+  word-wrap: break-word;
+}
 
 /*
 #loader {
