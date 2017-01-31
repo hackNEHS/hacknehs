@@ -28,7 +28,8 @@ p {
 }
 
 .news-link {
-  word-wrap: break-word;
+  color: #ffffff;
+
 }
 
 /*
@@ -78,7 +79,7 @@ p {
 }
 
 .slider .indicators .indicator-item.active {
-    background-color: #ff9800;
+    background-color: #ffad33;
 }
 
 .slider .indicators {
@@ -115,14 +116,14 @@ footer.page-footer {
 }
 
 #home {
-    background: url('../images/boston_night.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/boston_night.jpg');
     background-size: cover;
 }
 
 .hacknehs-form-container {
     padding-top: 1px;
     padding-bottom: 40px;
-    background: #ff9800;
+    background: #ffad33;
 }
 
 .hacknehs-orange-container {
@@ -131,7 +132,7 @@ footer.page-footer {
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
-    background: #ff9800;
+    background: #ffad33;
 }
 
 .hacknehs-white-container {
