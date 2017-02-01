@@ -28,8 +28,9 @@ p {
 }
 
 .news-link {
-  color: #ffffff;
-
+  color: #ff9800;
+  font-size: 150%;
+  font-weight: 300;
 }
 
 /*
