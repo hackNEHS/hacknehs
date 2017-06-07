@@ -248,11 +248,22 @@
     </div>
   </section>
 
-  <section class="sponsors" id="sponsors">
+  <section class="faq" id="faq">
     <div class="section-container orange-container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-white text-center">Sponsors</h2>
+          <h2 class="text-white text-center">Frequently Asked Questions</h2>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sponsors" id="sponsors">
+    <div class="section-container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-orange text-center">Sponsors</h2>
           <hr>
         </div>
       </div>
@@ -260,10 +271,10 @@
   </section>
 
   <section class="team" id="team">
-    <div class="section-container">
+    <div class="section-container orange-container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-orange text-center">Team</h2>
+          <h2 class="text-white text-center">Team</h2>
           <hr>
 
         </div>
@@ -386,7 +397,7 @@ $(document).ready(function() {
   // Transition effect for navbar
   $(window).scroll(function() {
     // checks if window is scrolled more than 500px, adds/removes solid class
-    if($(window).scrollTop() > $( window ).height()) {
+    if($(window).scrollTop() > $( window ).height() - 85) {
       $('#nav').addClass('solid');
     } else {
       $('#nav').removeClass('solid');
