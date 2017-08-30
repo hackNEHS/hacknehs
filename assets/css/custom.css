@@ -13,9 +13,8 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
+body, .popover {
   font-family: 'Lato', sans-serif;
-
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -180,6 +179,28 @@ nav {
 
 .btn {
   border-radius: 0;
+}
+
+.fab-btn-1 {
+  position: fixed;
+  bottom: 150px;
+  right: 30px;
+  z-index: 100;
+  border-radius: 50%;
+}
+.fab-btn-2 {
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  z-index: 100;
+  border-radius: 50%;
+}
+.fab-btn-3 {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+  border-radius: 50%;
 }
 
 .orange-container {
